@@ -26,14 +26,14 @@ function dateSample(sampleActivity) {
         return (Math.ceil(result))
         } else return false
 
-            // console.log('-') throw new Error('false')
+
 
 
 
 
 }
 
-// console.log(dateSample('1.2'))
+
 
 
 module.exports = {
