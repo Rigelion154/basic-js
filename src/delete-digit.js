@@ -31,7 +31,6 @@ function deleteDigit(n) {
 
 }
 
-console.log(deleteDigit(152))
 
 
 module.exports = {
