@@ -17,7 +17,7 @@ describe('Sort by height', () => {
       [-1, -1, -1, -1, -1],
     );
     assert.deepEqual(
-      sortByHeight([-1]),
+      sortByHeight(),
       [-1],
     );
     assert.deepEqual(
