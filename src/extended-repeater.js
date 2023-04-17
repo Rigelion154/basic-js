@@ -46,7 +46,7 @@ function repeater(str, options) {
 
 }
 
-console.log(repeater('la', { repeatTimes: 3, separator: 's' }))
+// console.log(repeater('la', { repeatTimes: 3, separator: 's' }))
 
 
 module.exports = {

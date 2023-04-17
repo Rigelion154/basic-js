@@ -61,7 +61,7 @@ function getDNSStats(domains) {
 //     }
 
 
-console.log(getDNSStats(['code.yandex.ru', 'music.yandex.ru', 'yandex.ru']))
+// console.log(getDNSStats(['code.yandex.ru', 'music.yandex.ru', 'yandex.ru']))
 
 // getDNSStats(['code.yandex.ru', 'music.yandex.ru', 'yandex.ru']) => {'.ru': 3, '.ru.yandex': 3, '.ru.yandex.code': 1,'.ru.yandex.music': 1}
 

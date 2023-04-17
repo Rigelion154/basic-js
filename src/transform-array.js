@@ -16,8 +16,9 @@ const { NotImplementedError } = require("../extensions/index.js");
 function transform(arr) {
   // throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
-  if (arr.isArray)
-    return Error("'arr' parameter must be an instance of the Array!");
+  if (!Array.isArray(arr)) throw new Error(`'arr' parameter must be an instance of the Array!`)
+  // if (arr.isArray)
+  //   return Error("'arr' parameter must be an instance of the Array!");
   // throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
   let dn = "--discard-next";
@@ -56,6 +57,8 @@ function transform(arr) {
   }
   return arr;
 }
+
+// console.log(transform(3))
 
 module.exports = {
   transform,
